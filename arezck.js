@@ -1,9 +1,6 @@
 //--\\
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = "ODIyMTc5ODgxMTgxNTExNzkw.YFOgrw.wRnmdG8yku2eUKTx6tsl4RtDodU"
-const token1 = "mfa.lSvYhP6E91JYi2xfzodJnVXGY4uxrVoIuzwPkjxfiaj8Cwf0UfargENs2moePuRaagqFjQYXjOaqE2ELG1hn"
-client.login(token1)
 //--\\
 
 //--\\
@@ -13,8 +10,9 @@ const ms = require('ms')
 
 //--\\
 const config = require('./arezck.json')
-const { sahip } = require('./arezck.json')
+const { sahip, token } = require('./arezck.json')
 require('./util/eventHandler.js')(client);
+client.login(token)
 //--\\
 
 //--\\
