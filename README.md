@@ -1,7 +1,7 @@
-# ÂrézCK Codes v12 Boş Altyapı
+# ÂrézCK Codes v12 Temiz Altyapı
 
 MIT Lisansı vardır.
 
 Emoji hatası bulunabilir.
 
-İçerisinde sadece Değiştirilebilir prefix ve Dil sistemi vardır.
+İçerisinde AFK, Dil sistemi ve Prefix sistemi bulunur.
